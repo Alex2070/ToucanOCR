@@ -1,0 +1,19 @@
+{
+    "translator_msg": [
+        {
+            "role": "system",
+            "content": "你是一个翻译领域专家"
+        },
+        {
+            "role": "user",
+            "content": "将以下markdown文本中的标题、以“###”、“##”开头的行和正文翻译成中文,内容要忠实于原文,表格、引用文献、公式、代码块不要翻译，特别注意保持markdown格式不变，直接输出翻译完的md文本，不要添加额外的东西"
+        },
+        {
+            "role": "assistant",
+            "content": "当然，请给出要翻译的markdown文本"
+        }
+    ],
+    "translator_model": "glm-4-flashx-250414",
+    "translator_workers": 100,
+    "token_usage": 4179065
+}
